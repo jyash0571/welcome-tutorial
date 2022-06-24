@@ -20,7 +20,7 @@ function sendWhatsapp(){
     message += document.getElementById("form-class").value;
     console.log(message);
     
-    link = 'http://wa.me/919807363146?text=' + encodeURI(message);
+    link = 'http://wa.me/919005394870?text=' + encodeURI(message);
     
     window.open(link, '_blank');
 }
